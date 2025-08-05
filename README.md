@@ -34,21 +34,22 @@ This project implements a U-Net-based convolutional neural network to segment br
 
 ---
 
-## 🔧 How to Run
+To run this project:
 
- Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+1. Clone the repository:
+   git clone <your-repo-link>
+   cd <your-repo-folder-name>
 
-Sample Output
-  Visual comparisons of:
+2. Open `notebook.ipynb` using Jupyter Notebook or Google Colab.
+
+3. Run all cells in order to reproduce results or fine-tune the model further.
+
+Sample Output:
+Visual comparisons of:
+
 Input MRI slice
 Ground truth mask
 Predicted segmentation mask
-(Screenshots available in the screenshots/ folder.)
+(Screenshots available)
 
-## 🙋‍♂️ Author
-Sreekar  
-   git clone <your-repo-url>
-   cd <your-repo-folder>
+Author: Sreekar

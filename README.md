@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Segmentation using U-Net (BraTS 2021)
 
-This project implements a U-Net-based convolutional neural network to segment brain tumors from MRI scans using the BraTS 2021 dataset. It is a mini-project developed for academic purposes in the field of medical image analysis.
+This project implements a U-Net++-based convolutional neural network to segment brain tumors from MRI scans using the BraTS 2021 dataset. It is a mini-project developed for academic purposes in the field of medical image analysis.
 
 ---
 
@@ -25,8 +25,9 @@ This project implements a U-Net-based convolutional neural network to segment br
 
 ## 🧠 Model Architecture
 
-- **Model**: U-Net
+- **Model**: U-Net++
 - **Encoder**: ResNet34 via `segmentation_models_pytorch`
+- **Data Augmentation**: Albumentations library used for real-time augmentations including horizontal/vertical flips, rotations, and intensity scaling
 - **Loss Function**: Combination of Binary Cross Entropy (BCE) and Dice Loss
 - **Evaluation Metrics**:
   - Dice Coefficient
